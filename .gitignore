@@ -1,0 +1,12 @@
+.build/
+*.sw*
+.DS_Store
+Alien-LibUSB-*/
+Alien-LibUSB-*.tar.gz
+Build
+MANIFEST
+_alien/
+_build/
+_share/
+blib/
+MYMETA.*
