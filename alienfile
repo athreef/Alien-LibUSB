@@ -53,12 +53,6 @@ share {
 
     plugin Extract => 'zip';
 
-    patch sub {
-        # README is a symlink and would make autotools fail on filesystems not supporting them
-        unlink 'README';
-        copy qw(README.md README);
-    };
-
     plugin 'Build::Autoconf' => ();
 
     $ENV{NOCONFIGURE}  = 1;
