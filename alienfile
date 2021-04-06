@@ -1,7 +1,6 @@
 use alienfile;
 use Config;
 use Carp;
-use File::Copy qw(copy);
 
 sub isAtLeastFreeBSDv8 {
     # FreeBSD 8+ ships with a native libusb-1.0 compatible library
